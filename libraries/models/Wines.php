@@ -16,8 +16,7 @@ class Wines
     $sql = $this->pdo->query("
       SELECT * 
       FROM wines 
-      ORDER BY publish_date 
-      DESC
+      LIMIT 10
     ");
     $sql->setFetchMode(\PDO::FETCH_ASSOC);
 
