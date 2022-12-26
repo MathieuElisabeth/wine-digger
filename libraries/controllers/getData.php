@@ -1,6 +1,6 @@
 <?php
 
-require_once(dirname(__DIR__) . '/models/wines.php');
+require_once(dirname(__DIR__) . '/models/Wines.php');
 
 $model = new Wines();
 
