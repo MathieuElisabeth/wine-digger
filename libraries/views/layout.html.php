@@ -14,9 +14,6 @@
 
 <body>
 
-
-  <?php include 'libraries/views/nav.html.php' ?>
-
   <div id="root"><?= $pageContent ?></div>
 
   <script 

@@ -24,7 +24,11 @@ const vue =  Vue.createApp({
       return `assets/uploads/${pic}`
     },
     searchInput(type) {
-      this.inputType = type
+      if (this.inputType === type) {
+        this.inputType = ""
+      } else {
+        this.inputType = type
+      }
     },
     cancelSearch() {
       this.searchKey = ""
